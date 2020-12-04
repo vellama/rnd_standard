@@ -92,7 +92,7 @@ You can find more explanations by Codeburst.io [here](https://codeburst.io/ecmas
 1. install this packages
 
 ```sh
-npm install --save-dev --save-exact eslint@6 eslint-plugin-standard@4 eslint-plugin-promise@4 eslint-plugin-import@2 eslint-plugin-node@11 @typescript-eslint/eslint-plugin@2 @typescript-eslint/parser@2 eslint-config-standard prettier-config-standard
+npm install --save-dev --save-exact eslint eslint-plugin-promise eslint-plugin-import eslint-plugin-node @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-standard prettier-config-standard
 ```
 
 2. Add these lines to your package.json
@@ -112,7 +112,7 @@ npm install --save-dev --save-exact eslint@6 eslint-plugin-standard@4 eslint-plu
 1. install this packages
 
 ```sh
-npm install --save-dev --save-exact eslint@6 eslint-plugin-standard@4 eslint-plugin-promise@4 eslint-plugin-import@2 eslint-plugin-node@11 @typescript-eslint/eslint-plugin@2 @typescript-eslint/parser@2 eslint-config-standard prettier-config-standard @vue/eslint-config-standard
+npm install --save-dev --save-exact eslint eslint-plugin-promise eslint-plugin-import eslint-plugin-node @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-standard prettier-config-standard @vue/eslint-config-standard
 ```
 
 2. Add these lines to your package.json
