@@ -125,6 +125,12 @@ npm install --save-dev --save-exact eslint@6 eslint-plugin-standard@4 eslint-plu
 
 4. Copy/paste the files in src/vue of this repo
 
+## Troubleshooting
+
+### Error: Environment key "es2021" is unknown
+
+This error may throw if your repo use and old version of eslint. Please upgrade it to last version.
+
 ## Sources
 
 [StandardJS - Official Web site](https://standardjs.com/)
