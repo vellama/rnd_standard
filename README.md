@@ -100,7 +100,8 @@ npm install --save-dev --save-exact eslint eslint-plugin-promise eslint-plugin-i
 ```javascript
 "src:build": "npm run lint && tsc",
 "src:watch": "npm run lint && tsc -w",
-"lint": "eslint . --ext .js,.ts"
+"lint": "eslint . --ext .js,.ts",
+"lint:fix": "eslint . --ext .js,.ts --fix"
 ```
 
 3. Copy/paste the src/.editorconfig at the root of your repo
@@ -129,7 +130,7 @@ npm install --save-dev --save-exact eslint eslint-plugin-promise eslint-plugin-i
 
 ### Error: Environment key "es2021" is unknown
 
-This error may throw if your repo use and old version of eslint. Please upgrade it to last version.
+This error may throw if your repo use and old version of eslint. Please upgrade it to 7.15.0+.
 
 ## Sources
 
