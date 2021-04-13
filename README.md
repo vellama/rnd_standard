@@ -1,5 +1,9 @@
 # R&D on using StandardJS
 
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
+[![npm](https://badgen.net/badge/icon/npm?icon=npm&label)](https://badgen.net/badge/icon/npm?icon=npm&label)
+[![vscode](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)
+
 The goal behind this R&D session was to see if StandardJS, ESLint and Prettier can play together, but why ?
 
 StandardJS is available as a plugin for VSCode and it allows formatting on save.
@@ -89,7 +93,16 @@ You can find more explanations by Codeburst.io [here](https://codeburst.io/ecmas
 
 ### Typescript
 
-1. install this packages
+1. install this packages as dev dependencies
+
+- eslint >= 7.15.0
+- eslint-plugin-promise
+- eslint-plugin-import
+- eslint-plugin-node
+- @typescript-eslint/eslint-plugin
+- @typescript-eslint/parser
+- eslint-config-standard
+- prettier-config-standard
 
 ```sh
 npm install --save-dev --save-exact eslint eslint-plugin-promise eslint-plugin-import eslint-plugin-node @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-standard prettier-config-standard
