@@ -110,7 +110,6 @@ npm uninstall eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin
 - prettier-config-standard
 - @typescript-eslint/parser
 - @typescript-eslint/eslint-plugin
-  fdqfqdfqsd
 
 ```sh
 npm install --save-dev --save-exact eslint eslint-plugin-prettier eslint-plugin-promise eslint-plugin-import eslint-plugin-node  eslint-config-standard prettier-config-standard @typescript-eslint/eslint-plugin @typescript-eslint/parser
