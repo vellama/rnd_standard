@@ -93,19 +93,27 @@ You can find more explanations by Codeburst.io [here](https://codeburst.io/ecmas
 
 ### Typescript
 
+First, please make sure to uninstall any previous versions
+
+```sh
+npm uninstall eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-promise eslint-plugin-node eslint-config-standard prettier prettier-config-standard @typescript-eslint/eslint-plugin @typescript-eslint/parser
+```
+
 1. install this packages as dev dependencies
 
 - eslint >= 7.15.0
 - eslint-plugin-promise
 - eslint-plugin-import
 - eslint-plugin-node
-- @typescript-eslint/eslint-plugin
-- @typescript-eslint/parser
+- eslint-plugin-prettier
 - eslint-config-standard
 - prettier-config-standard
+- @typescript-eslint/parser
+- @typescript-eslint/eslint-plugin
+  fdqfqdfqsd
 
 ```sh
-npm install --save-dev --save-exact eslint eslint-plugin-promise eslint-plugin-import eslint-plugin-node @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-standard prettier-config-standard
+npm install --save-dev --save-exact eslint eslint-plugin-prettier eslint-plugin-promise eslint-plugin-import eslint-plugin-node  eslint-config-standard prettier-config-standard @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
 2. Add these lines to your package.json
